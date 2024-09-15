@@ -135,7 +135,8 @@ src
     └───java/com/esmay/bankingService  # Unit and integration tests
 ```
 ## ER Diagram
-![Uploading 459128213_1973634026489453_8041061189010469146_n.png…]()
+![459128213_1973634026489453_8041061189010469146_n](https://github.com/user-attachments/assets/db285fa5-01c4-4747-a90c-c75a89347560)
+
 
 ## Conclusion
 
