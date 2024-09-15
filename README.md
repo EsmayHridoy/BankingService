@@ -48,3 +48,20 @@ This project is a simple **Banking Service API** built using **Java Spring Boot*
 ```bash
 git clone https://github.com/EsmayHridoy/bankingService.git
 cd bankingService
+
+
+src
+│
+├───main
+│   ├───java/com/esmay/bankingService
+│   │   ├───controller  # REST API controllers
+│   │   ├───dto         # Data Transfer Objects
+│   │   ├───entity      # JPA entities
+│   │   ├───repository  # Repositories for database operations
+│   │   ├───service     # Service layer for business logic
+│   │   ├───utils       # Utility classes
+│   └───resources
+│       ├───application.properties  # Configuration file
+│
+└───test
+    └───java/com/esmay/bankingService  # Unit and integration tests
