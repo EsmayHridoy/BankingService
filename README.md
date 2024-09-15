@@ -136,9 +136,23 @@ src
 ```
 ## Conclusion
 
-The Banking Service Application provides a robust foundation for managing user accounts, handling transactions, and generating bank statements. As a project built with Java Spring Boot and MySQL, it leverages powerful technologies to deliver a scalable and efficient solution. While the application covers essential banking functionalities, there's still room for growth and enhancement. Future updates will focus on integrating additional security features, improving error handling, and enhancing the user experience.
+The Banking Service Application is a comprehensive backend system built with Java Spring Boot and MySQL, featuring core functionalities such as account creation, balance inquiries, transaction management, and bank statement generation. The project includes integration with an email service for transaction notifications, providing a complete solution for managing banking operations.
 
-Feel free to explore the code, contribute improvements, and adapt the project to meet specific needs. Your feedback and contributions are highly valued as we continue to develop and refine this application.
+### Completed Features
 
-Thank you for your interest in the Banking Service Application!
+- User Account Management: Create accounts, check balances, and perform name inquiries.
+- Transaction Management: Credit and debit accounts, as well as transfer funds between accounts.
+- Bank Statements: Generate statements for specific date ranges.
+- Email Notifications: Integrated email service to send notifications for transactions.
+
+### In Progress
+
+- **Authentication:** The application currently lacks user authentication and authorization features. Implementing security measures such as JWT authentication will be a priority in future updates.
+- **Frontend:** There is no frontend interface included at this stage. Developing a user-friendly web or mobile interface to interact with the backend will be considered for future enhancements.
+
+I appreciate your interest in the Banking Service Application and welcome any feedback or contributions. The project will continue to evolve with additional features and improvements as we move forward.
+
+Thank you for exploring this project!
+
+
 
