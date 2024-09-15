@@ -8,12 +8,14 @@ This project is a simple **Banking Service API** built using **Java Spring Boot*
   - Create a new account.
   - Check balance for an existing account.
   - Name enquiry for an account using account number.
+  - Sent alert email.
   
 - **Transactions:**
   - Credit an account.
   - Debit an account.
   - Transfer between accounts.
   - Save and log transactions.
+  - Sent alert email.
   
 - **Bank Statements:**
   - Generate bank statements for an account within a specific date range.
