@@ -43,27 +43,9 @@ This project is a simple **Banking Service API** built using **Java Spring Boot*
 3. **MySQL**
 4. **SMTP Email Server Configuration**
 
-
-src
-│
-├───main
-│   ├───java/com/esmay/bankingService
-│   │   ├───controller  # REST API controllers
-│   │   ├───dto         # Data Transfer Objects
-│   │   ├───entity      # JPA entities
-│   │   ├───repository  # Repositories for database operations
-│   │   ├───service     # Service layer for business logic
-│   │   ├───utils       # Utility classes
-│   └───resources
-│       ├───application.properties  # Configuration file
-│
-└───test
-    └───java/com/esmay/bankingService  # Unit and integration tests
-
-
-#API Endpoints
-##User Management
-##Create Account
+# API Endpoints
+## User Management
+## Create Account
 POST /api/v1/user/create
 Request body:
 
@@ -79,7 +61,7 @@ Request body:
   "gender": "Male"
 }
 ```
-##Balance Enquiry
+## Balance Enquiry
 POST /api/v1/user/balance-enquiry
 Request body:
 
@@ -88,7 +70,7 @@ Request body:
   "accountNumber": "1234567890"
 }
 ```
-##Name Enquiry
+## Name Enquiry
 POST /api/v1/user/name-enquiry
 Request body:
 
@@ -97,8 +79,8 @@ Request body:
   "accountNumber": "1234567890"
 }
 ```
-#Transactions
-##Credit Account
+# Transactions
+## Credit Account
 POST /api/v1/transaction/credit
 Request body:
 
@@ -108,7 +90,7 @@ Request body:
   "amount": 1000
 }
 ```
-##Debit Account
+## Debit Account
 POST /api/v1/transaction/debit
 Request body:
 
@@ -118,7 +100,7 @@ Request body:
   "amount": 500
 }
 ```
-##Transfer Funds
+## Transfer Funds
 POST /api/v1/transaction/transfer
 Request body:
 
@@ -129,12 +111,12 @@ Request body:
   "amount": 200
 }
 ```
-##Bank Statements
+## Bank Statements
 Generate Statement
 GET /api/v1/statement/{accountNumber}/{startDate}/{endDate}
 Response: List of transactions between startDate and endDate.
 
-#Project Structure
+# Project Structure
 ```bash
 src
 │
@@ -152,9 +134,6 @@ src
 └───test
     └───java/com/esmay/bankingService  # Unit and integration tests
 ```
-
-
-
 ## Conclusion
 
 The Banking Service Application provides a robust foundation for managing user accounts, handling transactions, and generating bank statements. As a project built with Java Spring Boot and MySQL, it leverages powerful technologies to deliver a scalable and efficient solution. While the application covers essential banking functionalities, there's still room for growth and enhancement. Future updates will focus on integrating additional security features, improving error handling, and enhancing the user experience.
