@@ -134,6 +134,7 @@ src
 └───test
     └───java/com/esmay/bankingService  # Unit and integration tests
 ```
+## ER Diagram
 ## Conclusion
 
 The Banking Service Application is a comprehensive backend system built with Java Spring Boot and MySQL, featuring core functionalities such as account creation, balance inquiries, transaction management, and bank statement generation. The project includes integration with an email service for transaction notifications, providing a complete solution for managing banking operations.
