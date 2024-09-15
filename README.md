@@ -43,9 +43,9 @@ This project is a simple **Banking Service API** built using **Java Spring Boot*
 3. **MySQL**
 4. **SMTP Email Server Configuration**
 
-# API Endpoints
-## User Management
-## Create Account
+## API Endpoints
+### User Management
+### Create Account
 POST /api/v1/user/create
 Request body:
 
@@ -61,7 +61,7 @@ Request body:
   "gender": "Male"
 }
 ```
-## Balance Enquiry
+### Balance Enquiry
 POST /api/v1/user/balance-enquiry
 Request body:
 
@@ -70,7 +70,7 @@ Request body:
   "accountNumber": "1234567890"
 }
 ```
-## Name Enquiry
+### Name Enquiry
 POST /api/v1/user/name-enquiry
 Request body:
 
@@ -79,8 +79,8 @@ Request body:
   "accountNumber": "1234567890"
 }
 ```
-# Transactions
-## Credit Account
+## Transactions
+### Credit Account
 POST /api/v1/transaction/credit
 Request body:
 
@@ -90,7 +90,7 @@ Request body:
   "amount": 1000
 }
 ```
-## Debit Account
+### Debit Account
 POST /api/v1/transaction/debit
 Request body:
 
@@ -100,7 +100,7 @@ Request body:
   "amount": 500
 }
 ```
-## Transfer Funds
+### Transfer Funds
 POST /api/v1/transaction/transfer
 Request body:
 
@@ -111,12 +111,12 @@ Request body:
   "amount": 200
 }
 ```
-## Bank Statements
+### Bank Statements
 Generate Statement
 GET /api/v1/statement/{accountNumber}/{startDate}/{endDate}
 Response: List of transactions between startDate and endDate.
 
-# Project Structure
+## Project Structure
 ```bash
 src
 │
