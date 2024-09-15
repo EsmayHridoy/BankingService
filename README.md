@@ -17,8 +17,6 @@ This project is a simple **Banking Service API** built using **Java Spring Boot*
   
 - **Bank Statements:**
   - Generate bank statements for an account within a specific date range.
-  - Export the statement as a PDF.
-  - Send the PDF via email.
 
 ## Technologies Used
 
